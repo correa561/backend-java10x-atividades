@@ -27,4 +27,4 @@ As atividades serão atualizadas conforme o andamento do curso.
 ---
 
 📌 **Autor:** João Vitor  
-📚 **Curso:** Java10x – Back-End com Java
+📚 **Curso:** Java10x – Java com Naruto
