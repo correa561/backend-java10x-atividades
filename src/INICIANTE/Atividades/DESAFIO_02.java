@@ -4,19 +4,13 @@ import java.util.Scanner;
 
 public class DESAFIO_02 {
     public static void main(String[] args) {
-
         // Contadores
-
         int opcaoDoUsuario = 0;
         int ninjasCadastrados = 0;
-
         // Array - SCANNER
-
         int numeroMaximoDeNinjas = 5;
         String[] arrayCadastroDeNinjas = new String[numeroMaximoDeNinjas];
         Scanner input = new Scanner(System.in);
-
-
         // Menu ninja foda wow
         while( opcaoDoUsuario != 3){
             System.out.println("\n===== Menu Ninja =====");
@@ -25,12 +19,9 @@ public class DESAFIO_02 {
             System.out.println("3. Sair");
             System.out.print("Escolha uma opção: ");
             System.out.println("");
-
             // Input para o proseguir
-
             opcaoDoUsuario = input.nextInt();
             input.nextLine();
-
             switch (opcaoDoUsuario) {
 
                 case(1):
@@ -55,7 +46,6 @@ public class DESAFIO_02 {
                         System.out.println("===== Lista dos ninjas =====");
                         for (int i = 0; i < ninjasCadastrados ; i++) {
                             System.out.println(arrayCadastroDeNinjas[i]);
-
 
                         }
                     }
