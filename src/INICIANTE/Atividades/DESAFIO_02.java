@@ -1,6 +1,5 @@
 package Atividades;
 
-import javax.print.attribute.standard.CopiesSupported;
 import java.util.Scanner;
 
 public class DESAFIO_02 {
